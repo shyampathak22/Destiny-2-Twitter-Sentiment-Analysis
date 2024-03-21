@@ -1,6 +1,7 @@
 First open the __init__.py file, and run the empty file. This will tell Python that you want to use the remaining files as modules. 
 Next, alter the keywords within the data_collection.py file to be whatever you want to search for. They are currently set for Destiny 2: Into the Light.
 Third, save your changes to the data_collection.py file.
+Fourth, open the .env file and enter in your access, API, and bearer tokens and secrets into the proper variables. Be sure to NOT add quotations and NOT add any spaces.
 Finally, open a terminal and run this prompt: python main.py --max_tweets 1500 --output_file "report.pdf"
-        - Set the max tweets to whatver you want it to be. It is 1500 by default. Mkae sure to check your Twitter Developer account to double check               your rate limit.
-        - Set your desired name for the output file. 3 files total will be made: report.pdf, sentiment_distribution.png, and sentiment_over_time.png.
+        - Set the max tweets to whatver you want it to be. It is 1500 by default. Make sure to check your             Twitter Developer account to double check your rate limit.
+        - Set your desired name for the output file. 3 files total will be made: report.pdf,                          sentiment_distribution.png, and sentiment_over_time.png.
